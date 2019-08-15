@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/horse1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Addcart">
+
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="343dp"
+        android:layout_height="279dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/an1" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/picture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-141dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Title"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/picture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-73dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Price"
+
+        android:textStyle="" />
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/picture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-300dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="year"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tex4"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/picture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-196dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Description"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:text="Add to cart"
+        android:backgroundTint="#7fffd4"
+        android:id="@+id/cart1"/>
+    </RelativeLayout>
+

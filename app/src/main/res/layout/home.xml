@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/horse1"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/Customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer"
+        android:backgroundTint="#7fffd4"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="459dp" />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:id="@+id/kk"
+    android:backgroundTint="#7fffd4"
+
+    android:text=" Artist"/>
+</LinearLayout>
